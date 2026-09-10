@@ -10,9 +10,9 @@ h1 { font-family: 'Courier New', Courier, monospace;
 
 .logga{  
     left: 0.5em;
-    top: 0.5em;
+    top: 2.2em;
     z-index: 0;
-    width:5.1em;
+    width: 6.3em;
     background-color: rgb(25, 66, 0);
     position: fixed;
 }
