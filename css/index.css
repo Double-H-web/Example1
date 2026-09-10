@@ -29,23 +29,6 @@ ul {
     justify-content: center;
 }
 
-/*li {
-    float: left;
-    margin: auto;
-    padding: 0em 4em;
-    border-right-style: solid;
-    border-right-color: black;
-}
-
-li a {
-    display: block;
-    color: #9b6448;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-*/
-
 ul li a {
     display: block;
     color: #9b6448;
