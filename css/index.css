@@ -18,6 +18,10 @@ ul {
 
 li {
     float: left;
+    margin: auto;
+    padding: 0em 4em;
+    border-right-style: solid;
+    border-right-color: black;
 }
 
 li a {
