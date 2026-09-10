@@ -1,21 +1,22 @@
 h1 { font-family: 'Courier New', Courier, monospace; 
     font-size: 2em; 
-    color: #185b83; 
+    color: #9b634883; 
     text-align: center; 
-    margin-top: 1em;
+    margin: 1em 0em 0em 4em;
     font-variant: small-caps;
     border-style: double;
-    border-color: aqua;
+    border-color: #946836;
     padding: 1em;
 }
 
 .logga{  
     left: 0.5em;
-    top: 2.2em;
+    top: 1.8em;
     z-index: 0;
-    width: 6.3em;
+    width: 6.8em;
     background-color: rgb(25, 66, 0);
     position: fixed;
+    border-radius: 50%;
 }
 
 
@@ -23,7 +24,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #afc7d5;
+    background-color: #f0deb6;
     overflow: hidden;
 }
 
@@ -37,7 +38,7 @@ li {
 
 li a {
     display: block;
-    color: #185b83;
+    color: #9b634883;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
