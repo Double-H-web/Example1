@@ -1,6 +1,17 @@
 h1 { font-family: 'Courier New', Courier, monospace; 
     font-size: 2em; 
-    color: #333; 
+    color: #185b83; 
     text-align: center; 
-    margin-top: 20px; 
+    margin-top: 1em;
+    font-variant: small-caps;
+    border-style: double;
+    border-color: aqua;
+}
+
+nav {
+    background-color: #185b83;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
