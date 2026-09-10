@@ -6,6 +6,7 @@ h1 { font-family: 'Courier New', Courier, monospace;
     font-variant: small-caps;
     border-style: double;
     border-color: aqua;
+    padding: 1em;
 }
 
 .logga{  
