@@ -52,6 +52,8 @@ ul li a {
     text-align: center;
     padding: 1em 4em;
     text-decoration: none;
+    border-style: none solid none solid;
+    border-color: #9b6448;
 }
 
 a:hover {
