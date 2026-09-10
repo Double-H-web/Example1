@@ -8,10 +8,22 @@ h1 { font-family: 'Courier New', Courier, monospace;
     border-color: aqua;
 }
 
-nav {
-    background-color: #185b83;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #afc7d5;
     overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #185b83;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
