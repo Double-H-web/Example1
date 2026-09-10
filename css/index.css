@@ -25,10 +25,11 @@ ul {
     margin: 0;
     padding: 0;
     background-color: #f0deb6;
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
-li {
+/*li {
     float: left;
     margin: auto;
     padding: 0em 4em;
@@ -41,6 +42,15 @@ li a {
     color: #9b6448;
     text-align: center;
     padding: 14px 16px;
+    text-decoration: none;
+}
+*/
+
+ul li a {
+    display: block;
+    color: #9b6448;
+    text-align: center;
+    padding: 1em 4em;
     text-decoration: none;
 }
 
