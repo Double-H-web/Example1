@@ -8,6 +8,16 @@ h1 { font-family: 'Courier New', Courier, monospace;
     border-color: aqua;
 }
 
+.logga{
+    width:5.1em;
+    position:relative;
+    top:0%;
+    left:2%;
+    float:left;
+    background-color: rgb(25, 66, 0);
+}
+
+
 ul {
     list-style-type: none;
     margin: 0;
