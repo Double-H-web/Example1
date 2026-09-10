@@ -54,6 +54,11 @@ ul li a {
     text-decoration: none;
 }
 
+a:hover {
+    background-color: #9b6448;
+    color: white;
+}
+
 h2 {
     text-align: center;
 }
