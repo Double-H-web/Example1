@@ -1,6 +1,6 @@
 h1 { font-family: 'Courier New', Courier, monospace; 
     font-size: 2em; 
-    color: #9b634883; 
+    color: #9b6448; 
     text-align: center; 
     margin: 1em 0em 0em 4em;
     font-variant: small-caps;
@@ -38,7 +38,7 @@ li {
 
 li a {
     display: block;
-    color: #9b634883;
+    color: #9b6448;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
