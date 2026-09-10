@@ -8,13 +8,13 @@ h1 { font-family: 'Courier New', Courier, monospace;
     border-color: aqua;
 }
 
-.logga{
+.logga{  
+    left: 0.5em;
+    top: 0.5em;
+    z-index: 0;
     width:5.1em;
-    position:relative;
-    top:0%;
-    left:2%;
-    float:left;
     background-color: rgb(25, 66, 0);
+    position: fixed;
 }
 
 
