@@ -48,3 +48,24 @@ ul li a:hover {
     background-color: #9b6448;
     color: white;
 }
+
+#block1, #block2, #block3, aside {
+    background-color: #f0deb6;
+    padding: 2em;
+    margin: 2em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+h2{
+    text-align: center;
+}
+
+aside{
+    background-color: #f0deb6;
+    padding: 2em;
+    margin: 2em;
+    border-radius: 10px;
+}
