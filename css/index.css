@@ -1,4 +1,8 @@
-/*h1 { font-family: 'Courier New', Courier, monospace; 
+header{
+    margin-bottom: -7em;
+}
+
+h1 { font-family: 'Courier New', Courier, monospace; 
     font-size: 2em; 
     color: #9b6448; 
     text-align: center; 
@@ -10,12 +14,9 @@
 }
 
 .logga{  
-    left: 0.5em;
-    top: 1.8em;
-    z-index: 0;
     width: 6.8em;
-    background-color: rgb(25, 66, 0);
-    position: fixed;
+    position: relative;
+    bottom: 7em;
     border-radius: 50%;
 }
 
@@ -29,102 +30,21 @@ ul {
     justify-content: center;
 }
 
+ul li {
+    flex-grow: 1;
+}
+
 ul li a {
     display: block;
     color: #9b6448;
     text-align: center;
-    padding: 1em 4em;
+    padding: 1.5em 4em;
     text-decoration: none;
     border-style: none solid none solid;
     border-color: #9b6448;
 }
 
-a:hover {
+ul li a:hover {
     background-color: #9b6448;
     color: white;
 }
-
-main {
-    display: flex;
-    flex-flow: row wrap;
-    background-color: #f0deb6;
-    margin: 5% 5%;
-    padding: 2%;
-    border-style: double;
-    border-color: #9b6448;
-}
-
-h2 {
-    text-align: center;
-}
-    */
-
-header {
-    background-color: rgb(25, 66, 0);
-    color: white;
-    padding: 1em;
-    text-align: center;
-}
-
-.logga {
-    width: 5.1em;
-    position: relative;
-    top: 0%;
-    left: 2%;
-    float: left;
-    background-color: rgb(25, 66, 0);
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0 0 0 5rem;
-    overflow: hidden;
-    background-color: rgb(25, 66, 0);
-    color: white;
-    display: flex;
-    justify-content: center;
-}
-
-ul li a {
-    text-decoration: none;
-    display: flex;
-    padding: 1em;
-    background-color: rgb(25, 66, 0);
-    color: white;
-    border: solid green;
-    flex-flow: row nowrap;
-    justify-content: center;
-
-}
-
-li a:hover {
-    background-color: white;
-    color: rgb(0, 0, 0);
-}
-
-h1 {
-    font-family: "Metamorphous", serif;
-    font-weight: 400;
-    font-style: normal;
-    background-color: rgb(25, 66, 0);
-    color: white;  
-    margin: 0;
-    padding: 2%;
-    font-size: 4em;
-}
-
-h2 {
-    text-align: center;
-    font-family: "Metamorphous", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-h3 {
-    text-align: center;
-    font-family: "Metamorphous", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
